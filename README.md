@@ -77,6 +77,8 @@ c:
     JUMP     a
 ```
 
+On Windows, you can just code the code to the clipboard and use the paste feature of the game to get it into the game.
+
 # Some Remarks
 - Adding and subtracting is kind of weird now, as proper parsing of arithmetic expressions requires an OperatorTable.
 - Code generation is directly to string output. In case someone is crazy enough to write a backend optimization module,
