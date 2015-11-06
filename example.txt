@@ -1,0 +1,26 @@
+#MEMSIZE 8
+#CONSTANT div 15
+#CONSTANT zero 14
+
+// Recoordinator
+
+routine main
+{
+  repeat
+  {
+	 rem = sub in div;
+	 div();
+	 out add rem four;
+	 out i;
+  }  
+}
+
+routine div
+{
+  i = zero;
+  while not isneg(rem)
+  {
+     rem = sub rem div;
+     i++;
+  }
+}
