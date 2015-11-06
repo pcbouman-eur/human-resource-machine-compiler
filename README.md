@@ -4,8 +4,9 @@ A JParsec based compiler for a very simple language that generates code for the 
 This project is mostly for fun; it allows you to write loops and things in a more structured way than the game allows
 you to, but ultimately it is probably not useful if you want optimized solutions.
 
-It requires the JParsec library to function and makes use of Java 8. The documentation is mostly lacking,
-although the source code of the parser class has some explanation of the grammar of the language.
+It requires the JParsec library to function and makes use of Java 8. The parser is already extremely ugly, but
+lambda's make things a lot more bearable.
+The documentation is mostly lacking, although the source code of the parser class has some explanation of the grammar of the language.
 
 JParsec is imported via maven. I don't use maven for anything else at the moment.
 
