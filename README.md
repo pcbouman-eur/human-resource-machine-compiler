@@ -1,14 +1,19 @@
 # Human Resource Machine Compiler
 A JParsec based compiler for a very simple language that generates code for the game Human Resource Machine.
 
-This project is mostly for fun; it allows you to write loops and things in a more structured way than the game allows
-you to, but ultimately it is probably not useful if you want optimized solutions.
+http://tomorrowcorporation.com/humanresourcemachine
 
-It requires the JParsec library to function and makes use of Java 8. The parser is already extremely ugly, but
-lambda's make things a lot more bearable.
+This project is mostly for fun and applying something I learned in a course some years back.
+This compiler allows you to write loops and things in a more structured way than the game allows
+you to, but ultimately it is probably not useful if you want very optimized solutions to the levels.
+
+It requires the JParsec library to function and makes use of Java 8. The parser is already extremely ugly,
+but the lambda's of Java 8 make things a lot more bearable than it used to be.
 The documentation is mostly lacking, although the source code of the parser class has some explanation of the grammar of the language.
 
 JParsec is imported via maven. I don't use maven for anything else at the moment.
+
+A compiled version which is ready to use can be obtained at: https://github.com/pcbouman-rsm/human-resource-machine-compiler/releases/tag/0.1
 
 # Example
 The following example is an input file which solves one of the later levels in the game:
