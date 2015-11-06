@@ -10,7 +10,7 @@ although the source code of the parser class has some explanation of the grammar
 JParsec is imported via maven. I don't use maven for anything else at the moment.
 
 # Example
-The following example is an input file which solves on of the later levels in the game:
+The following example is an input file which solves one of the later levels in the game:
 ```
 #MEMSIZE 8
 #CONSTANT div 15
