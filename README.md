@@ -1,5 +1,5 @@
 # Human Resource Machine Compiler
-A JParsec based compiler for a very simple language that generates code for the game Human Resource Machine as an output.
+A JParsec based compiler for a very simple language that generates code for the game Human Resource Machine.
 
 This project is mostly for fun; it allows you to write loops and things in a more structured way than the game allows
 you to, but ultimately it is probably not useful if you want optimized solutions.
